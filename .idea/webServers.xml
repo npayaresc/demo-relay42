@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b80490cd-8eec-4c88-aa62-a1195f578bc1" name="nicotest" url="http://40.71.253.82">
+        <fileTransfer host="40.71.253.82" port="22" rootFolder="/home/eurnpa" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

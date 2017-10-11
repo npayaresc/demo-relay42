@@ -1,0 +1,20 @@
+curl --user nicolas.payares@sas.com:Orion123 -o C:/temp/test/nicotest.txt https://api.relay42.com:443/v1/site-1252/profiles/interactions/stream -G --data-urlencode "query=interaction.interactionType==\"engagement\""
+
+
+curl --user nicolas.payares@sas.com:Orion123  https://api.relay42.com:443/v1/site-1252/profiles/interactions/stream -G --data-urlencode "query=interaction.interactionType==\"engagement\"" >  C:/temp/test/nicotest.txt
+
+
+##C:/Development/cygwin64/bin/curl --user nicolas.payares@sas.com:Orion123  https://api.relay42.com:443/v1/site-1252/profiles/interactions/stream -G --data-urlencode "query=interaction.interactionType==\"engagement\"">C:/temp/test/nicotest.txt
+
+##C:/Development/cygwin64/bin/curl --user nicolas.payares@sas.com:Orion123 -o C:/temp/test/nicotest.txt https://api.relay42.com:443/v1/site-1252/profiles/interactions/stream -G --data-urlencode "query=interaction.interactionType==\"engagement\""
+
+
+##cmd /C C:/Development/cygwin64/bin/curl --user nicolas.payares@sas.com:Orion123 https://api.relay42.com:443/v1/site-1252/profiles/interactions/stream -G --data-urlencode "query=interaction.interactionType==\"engagement\"">C:/temp/test/nicotest.txt
+
+cmd /c exit -1073741510
+
+{"siteNumber":1252,"trackId":"2c19ae19-d138-41b1-89c7-f99f5e965247","timestamp":1507622937394,"eventId":"43e41120-ad92-11e7-9b39-5118a2e8ec87","type":"Product View","content":"","variables":{"productId":"1645","categoryId":"251"},"interactionType":"engagement"}
+{"siteNumber":1252,"trackId":"2c19ae19-d138-41b1-89c7-f99f5e965247","timestamp":1507622939694,"eventId":"454304e0-ad92-11e7-928f-49aded199b72","type":"Product View","content":"","variables":{"productId":"1640","categoryId":"250"},"interactionType":"engagement"}
+
+{"siteNumber":1252,"trackId":"2c19ae19-d138-41b1-89c7-f99f5e965247","timestamp":1507622937394,"eventId":"43e41120-ad92-11e7-9b39-5118a2e8ec87","type":"Product View","content":"","variables":{"productId":"1645","categoryId":"251"},"interactionType":"engagement"}
+{"siteNumber":1252,"trackId":"2c19ae19-d138-41b1-89c7-f99f5e965247","timestamp":1507622939694,"eventId":"454304e0-ad92-11e7-928f-49aded199b72","type":"Product View","content":"","variables":{"productId":"1640","categoryId":"250"},"interactionType":"engagement"}
